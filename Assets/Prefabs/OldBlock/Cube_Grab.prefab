@@ -318,9 +318,10 @@ GameObject:
   - component: {fileID: 8563790086356150318}
   - component: {fileID: 9159261746631931825}
   - component: {fileID: 8050079361341513991}
+  - component: {fileID: 4441151450396230601}
   m_Layer: 0
   m_Name: Cube_Grab
-  m_TagString: Untagged
+  m_TagString: SnapObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -504,6 +505,27 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
+--- !u!65 &4441151450396230601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112702119851676415}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Center: {x: 0.05, y: 0.05, z: 0.05}
 --- !u!1 &3397724889483905570
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,7 +568,6 @@ GameObject:
   - component: {fileID: 3875962089846185883}
   - component: {fileID: 4380630901962829102}
   - component: {fileID: 7480072634265178187}
-  - component: {fileID: 7409898427789037621}
   m_Layer: 0
   m_Name: CubeForme
   m_TagString: Untagged
@@ -622,27 +643,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7409898427789037621
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3752655497537984774}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.04, y: 0.04, z: 0.04}
-  m_Center: {x: 0.009999985, y: 0.010000015, z: 0.010000059}
 --- !u!1 &5312304618875626707
 GameObject:
   m_ObjectHideFlags: 0
