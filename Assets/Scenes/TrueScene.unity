@@ -1942,7 +1942,7 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 16.3
+  m_Intensity: 49.9
   m_Range: 59.6939
   m_SpotAngle: 51.79397
   m_InnerSpotAngle: 51.79397
@@ -4528,7 +4528,7 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 16.3
+  m_Intensity: 49.9
   m_Range: 59.6939
   m_SpotAngle: 51.79397
   m_InnerSpotAngle: 51.79397
@@ -8038,6 +8038,10 @@ PrefabInstance:
       propertyPath: m_InteractableSource
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4580954016113710811, guid: d7ef3634fe070b74787c9eb3decdd13f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4662966127462987286, guid: d7ef3634fe070b74787c9eb3decdd13f, type: 3}
       propertyPath: m_InteractableSource
       value: 
@@ -8369,6 +8373,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 828042771549525147, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
@@ -8436,6 +8444,10 @@ PrefabInstance:
     - target: {fileID: 2846190408854820033, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Intensity
       value: 24.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634941337736553285, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8534966689092540292, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Antialiasing
