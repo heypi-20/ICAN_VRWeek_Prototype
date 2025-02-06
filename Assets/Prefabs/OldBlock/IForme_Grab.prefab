@@ -128,8 +128,8 @@ Rigidbody:
   m_GameObject: {fileID: 1953328131015549438}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 5
-  m_AngularDrag: 5
+  m_Drag: 50
+  m_AngularDrag: 50
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -299,7 +299,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.1, z: 0.4}
+  m_Size: {x: 0.093808524, y: 0.09017705, z: 0.3931319}
   m_Center: {x: 0, y: 0, z: 0.15}
 --- !u!1 &2857589845675541114
 GameObject:

@@ -161,7 +161,6 @@ GameObject:
   - component: {fileID: 5765599003500005005}
   - component: {fileID: 3227906197752930361}
   - component: {fileID: 7041983096140744260}
-  - component: {fileID: 8817699059879596118}
   - component: {fileID: 8968357273712527188}
   - component: {fileID: 2961284013255645081}
   - component: {fileID: 1554956492273459953}
@@ -199,8 +198,8 @@ Rigidbody:
   m_GameObject: {fileID: 3364563903168523409}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 5
-  m_AngularDrag: 5
+  m_Drag: 50
+  m_AngularDrag: 50
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -351,19 +350,6 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
---- !u!114 &8817699059879596118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3364563903168523409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13e145a110191d94aa8facd8f7338c46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
 --- !u!65 &8968357273712527188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -383,7 +369,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.3, z: 0.1}
+  m_Size: {x: 0.090443805, y: 0.28404272, z: 0.095389605}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &2961284013255645081
 BoxCollider:
@@ -404,7 +390,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.1, z: 0.3}
+  m_Size: {x: 0.09097488, y: 0.093030356, z: 0.29003766}
   m_Center: {x: 0, y: 0, z: 0.1}
 --- !u!65 &1554956492273459953
 BoxCollider:
@@ -425,7 +411,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.1}
+  m_Size: {x: 0.28717035, y: 0.08809914, z: 0.090405665}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3496659796740903884
 GameObject:
